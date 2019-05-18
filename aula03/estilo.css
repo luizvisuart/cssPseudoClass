@@ -1,0 +1,25 @@
+
+input:checked + label{
+    background: #f7fc0085;
+}
+
+input:disabled {
+    background: #eee;
+    border-style: 1px solid #222;
+    cursor: not-allowed;
+
+}
+
+/* para funcionar do firefox */
+input:-moz-read-only {
+   background: #eee;
+    border-style: 1px solid #222;
+    cursor: not-allowed;
+}
+
+input:read-only {
+    background: #eee;
+    border-style: 1px solid #222;
+    cursor: not-allowed;
+
+}
