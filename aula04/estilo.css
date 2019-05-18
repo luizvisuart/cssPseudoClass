@@ -1,0 +1,21 @@
+input:disabled {
+    border: 1px solid red;
+}
+
+input:not(:disabled){
+    border: 1px solid green;
+}
+
+p:last-of-type {
+    font-style: italic;
+}
+
+/* pode ser usado odd ou even */
+p:nth-last-child(odd){
+    background: aquamarine;
+}
+
+/* expimente -n+3 */
+p:nth-last-of-type(2n+2){
+    background-color: bisque;
+}
